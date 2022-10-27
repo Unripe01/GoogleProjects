@@ -1,7 +1,14 @@
 # mail2calendar_from_tol.js
 
 gmailに届いたメールを解析し、Googleカレンダーに予定を自動登録します。
-Google App Scriptのトリガーとして登録し実行させてください。
+Google App Scriptのトリガーとして登録してください。
+---
+![image](https://user-images.githubusercontent.com/2908535/196748547-b61f114b-518f-4e11-9f2e-d2475b62fc69.png)
+---
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+---
+![image](https://user-images.githubusercontent.com/2908535/196749177-fdb68b09-552f-46fc-949b-4c8d43553595.png)
+---
 
 ## 想定しているメール本文
 以下のようなメール文面が対象となります。
