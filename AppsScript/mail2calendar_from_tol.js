@@ -19,10 +19,11 @@ function main() {
 function pickUpMessage(query, callback) {
   const threads = GmailApp.search(query, 0, 5);
   for (var x in threads) {
-    console.log(x)
     var thread = threads[x]
     //解析処理
-    callback(thread.getMessages()[0])
+    for (var message of thread.getMessages()) {
+      callback(message)
+    }
     //アーカイブして処理対象外にする
     thread.moveToArchive();
   }
